@@ -46,7 +46,7 @@ make run
 on Windows in root directory
 
 ```powershell
-docker compose --file deploy/docker-compose.yml up --scale gateway=2
+docker compose --file deploy/docker-compose.yml up --scale rate-limiter=2
 ```
 
 For test rate-limit functionality, run fallowing command:
